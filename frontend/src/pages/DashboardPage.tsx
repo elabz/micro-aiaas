@@ -1,7 +1,9 @@
 import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card";
-
+import Layout from "../components/layout/Layout";
 export const DashboardPage = () => {
+
   return (
+    <Layout>
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold mb-8">Dashboard</h1>
       
@@ -37,7 +39,9 @@ export const DashboardPage = () => {
         </Card>
       </div>
     </div>
+    </Layout>
   );
+
 };
 
 export default DashboardPage;
