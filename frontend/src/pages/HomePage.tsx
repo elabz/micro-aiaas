@@ -5,8 +5,7 @@ export const HomePage = () => {
 
   return (
     <Layout>
-      <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white">
-        <div className="container mx-auto px-4 py-16">
+      <div className="container mx-auto px-4 py-16">
           <div className="max-w-3xl mx-auto text-center mb-12">
             <h1 className="text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-teal-400">
               Micro AIaaS
@@ -45,7 +44,6 @@ export const HomePage = () => {
             </Card>
           </div>
         </div>
-      </div>
     </Layout>
   );
 };

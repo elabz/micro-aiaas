@@ -21,14 +21,22 @@ export const TopNav = () => {
                 </button>
               </SignInButton>
             ) : (
-              <UserButton 
-                afterSignOutUrl="/"
-                appearance={{
-                  elements: {
-                    avatarBox: "w-10 h-10"
-                  }
-                }}
-              />
+              <>
+                <Link 
+                  to="/dashboard"
+                  className="text-sm font-medium text-gray-700 hover:text-blue-600"
+                >
+                  Dashboard
+                </Link>
+                <UserButton 
+                  afterSignOutUrl="/"
+                  appearance={{
+                    elements: {
+                      avatarBox: "w-10 h-10"
+                    }
+                  }}
+                />
+              </>
             )}
           </div>
         </div>
